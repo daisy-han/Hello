@@ -1,0 +1,24 @@
+{
+    "name": "dalele/hello",
+    "description": "jian dan de yige hello composer bao",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hanjialele925",
+            "email": "2268781158@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    },
+  "repositories":{
+    "packagist":{
+      "type":"composer",
+      "url":"https://packagist.phpcomposer.com"
+    }
+  }
+}
